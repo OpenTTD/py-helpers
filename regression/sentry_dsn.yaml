@@ -1,0 +1,1 @@
+execute: examples/sentry_helper.py --sentry-dsn https://a@localhost/1234 --sentry-environment dev

@@ -1,0 +1,4 @@
+execute: examples/click_helper.py --mod mod-b
+stdout: |
+  Parameter has value 1
+  Mod is saying B

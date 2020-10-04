@@ -1,0 +1,8 @@
+execute: examples/sentry_helper.py --help
+stdout: |
+  Usage: sentry_helper.py [OPTIONS]
+
+  Options:
+    --sentry-dsn TEXT          Sentry DSN.
+    --sentry-environment TEXT  Environment we are running in.
+    -h, --help                 Show this message and exit.

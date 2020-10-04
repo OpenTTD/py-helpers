@@ -1,0 +1,13 @@
+aiohttp==3.6.2
+async-timeout==3.0.1
+attrs==20.2.0
+chardet==3.0.4
+click==7.1.2
+coloredlogs==14.0
+coverage==5.3
+humanfriendly==8.2
+idna==2.10
+multidict==4.7.6
+PyYAML==5.3.1
+verboselogs==1.7
+yarl==1.6.0

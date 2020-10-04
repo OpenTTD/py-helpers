@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.coverage
+/.env
+/htmlcov
+/openttd_helpers.egg-info

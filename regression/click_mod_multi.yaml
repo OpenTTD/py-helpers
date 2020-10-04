@@ -1,0 +1,5 @@
+execute: examples/click_helper.py --mod-multi mod-a --mod-multi mod-b
+stdout: |
+  Parameter has value 1
+  Mod is saying A
+  Mod is saying B

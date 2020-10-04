@@ -1,0 +1,9 @@
+execute: examples/click_helper.py --help
+stdout: |
+  Usage: click_helper.py [OPTIONS]
+
+  Options:
+    --parameter INTEGER
+    --mod [mod-a|mod-b]        Pick a module.
+    --mod-multi [mod-a|mod-b]  Pick a module.
+    -h, --help                 Show this message and exit.

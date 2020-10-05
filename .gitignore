@@ -2,5 +2,8 @@ __pycache__/
 *.pyc
 .coverage
 /.env
+/build
+/dist
 /htmlcov
 /openttd_helpers.egg-info
+/VERSION

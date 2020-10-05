@@ -1,11 +1,12 @@
 import setuptools
+import version
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="openttd-helpers",
-    version="1.0.0",
+    version=version.get_version(),
     author="OpenTTD Dev Team",
     author_email="info@openttd.org",
     description="Small helpers common in most Python applications for OpenTTD",

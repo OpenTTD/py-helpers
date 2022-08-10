@@ -1,4 +1,4 @@
 execute: examples/logging_helper.py
 stderr: |
-  2020-01-01 00:00:01 INFO     Testing
-  2020-01-01 00:00:01 WARNING  Warning
+  2020-01-01 00:00:01 INFO     [__main__] Testing
+  2020-01-01 00:00:01 WARNING  [__main__] Warning

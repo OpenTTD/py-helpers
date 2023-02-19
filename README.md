@@ -21,9 +21,15 @@ See `examples/` folder for example use, or look into OpenTTD repositories contai
 
 # Modules
 
+## asyncio_helper
+
+Helpers to make the user of `ayncio` easier.
+
+- task: `enable_strong_referenced_tasks()` makes returned tasks from `ayncio.create_task` strong, so they are not garbage collected unexpectedly.
+
 ## click_helper
 
-Helpers to make the use of "click" easier.
+Helpers to make the use of `click` easier.
 
 - command: by default, add `-h` to the allowed parameters.
 - extend: allow extending a `click.command()` in other functions.

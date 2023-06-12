@@ -31,7 +31,13 @@ def click_sentry(sentry_dsn, sentry_environment):
     with open(".version") as f:
         release = f.readline().strip()
 
-    sentry_sdk.init(sentry_dsn, release=release, environment=sentry_environment, send_client_reports=False)
+    sentry_sdk.init(
+        sentry_dsn,
+        release=release,
+        environment=sentry_environment,
+        send_client_reports=False,
+        auto_session_tracking=False,
+    )
     log.info(
         "Sentry initialized with release='%s' and environment='%s'",
         release,

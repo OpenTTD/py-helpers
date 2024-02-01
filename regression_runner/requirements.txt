@@ -1,10 +1,10 @@
-aiohttp==3.9.1
+aiohttp==3.9.3
 async-timeout==4.0.3
 attrs==23.2.0
 chardet==5.2.0
 click==8.1.7
 coloredlogs==15.0.1
-coverage==7.4.0
+coverage==7.4.1
 humanfriendly==10.0
 idna==3.6
 multidict==6.0.4

@@ -4,7 +4,7 @@ attrs==23.2.0
 chardet==5.2.0
 click==8.1.7
 coloredlogs==15.0.1
-coverage==7.4.3
+coverage==7.4.4
 humanfriendly==10.0
 idna==3.6
 multidict==6.0.5

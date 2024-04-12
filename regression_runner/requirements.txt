@@ -6,7 +6,7 @@ click==8.1.7
 coloredlogs==15.0.1
 coverage==7.4.3
 humanfriendly==10.0
-idna==3.6
+idna==3.7
 multidict==6.0.5
 PyYAML==6.0.1
 typing-extensions==4.10.0

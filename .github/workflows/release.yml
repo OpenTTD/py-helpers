@@ -12,12 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        fetch-depth: 0
-
-    - name: Checkout tags
-      uses: openttd/actions/checkout@v5
-      with:
-        with-tags: true
+        fetch-tags: true
 
     - name: Set up Python
       uses: actions/setup-python@v5

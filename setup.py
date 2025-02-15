@@ -19,7 +19,7 @@ setuptools.setup(
         "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.8',
+    python_requires='>=3.11',
     install_requires=[
         'click>=7.1.2',
         'sentry_sdk>=0.18.0'

@@ -44,21 +44,15 @@ jobs:
         twine upload --username __token__ dist/*.whl dist/*.tar.gz
 
     - name: Publish Source to GitHub releases
-      uses: actions/upload-release-asset@v1
+      uses: softprops/action-gh-release@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./dist/${{ steps.build.outputs.archive }}
-        asset_name: ${{ steps.build.outputs.archive }}
-        asset_content_type: application/gzip
+        files: ./dist/${{ steps.build.outputs.archive }}
 
     - name: Publish Wheel to GitHub releases
-      uses: actions/upload-release-asset@v1
+      uses: softprops/action-gh-release@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./dist/${{ steps.build.outputs.wheel }}
-        asset_name: ${{ steps.build.outputs.wheel }}
-        asset_content_type: application/octet-stream
+        files: ./dist/${{ steps.build.outputs.wheel }}

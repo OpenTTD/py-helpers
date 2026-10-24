@@ -108,8 +108,7 @@ def main(regression_file, coverage):
     for handler in logging.getLogger().handlers:
         handler.addFilter(RegressionFilter())
 
-    loop = asyncio.get_event_loop()
-    failed = loop.run_until_complete(_handle_files(regression_file, coverage=coverage))
+    failed = asyncio.run(_handle_files(regression_file, coverage=coverage))
 
     if failed:
         sys.exit(1)

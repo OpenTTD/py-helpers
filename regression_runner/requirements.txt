@@ -8,7 +8,7 @@ coverage==7.17.0
 frozenlist==1.8.0
 humanfriendly==10.0
 idna==3.20
-multidict==7.2.0
+multidict==7.2.1
 propcache==0.5.4
 pyyaml==6.0.3
 typing_extensions==4.16.0
